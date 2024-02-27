@@ -4,15 +4,6 @@ import ReactStars from "react-stars";
 import { render } from "react-dom";
 import StarRating from "@/components/StarRating";
 
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog";
-
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center mt-10 p-24">

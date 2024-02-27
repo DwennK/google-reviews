@@ -3,6 +3,16 @@ import React from "react";
 import { useState } from "react";
 import { FaStar } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog";
+
+import { Label } from "@/components/ui/label";
 
 const colors = {
   orange: "#FFBA5A",
@@ -56,7 +66,27 @@ function StarRating() {
         })}
       </div>
       <textarea className="mt-2" placeholder="Décrivez votre expérience" />
-      <Button className="mt-2">Envoyer</Button>
+      <Dialog>
+        <DialogTrigger asChild>
+          <Button className="mt-2">Envoyer</Button>
+        </DialogTrigger>
+        <DialogContent className="sm:max-w-md">
+          <DialogHeader>
+            <DialogTitle>Evaluation envoyée</DialogTitle>
+            <DialogDescription>
+              <p>Merci pour votre évaluation !</p>
+              <p>Elle a été transmise et sera prise compte</p>
+            </DialogDescription>
+          </DialogHeader>
+          <div className="flex items-center space-x-2">
+            <div className="grid flex-1 gap-2">
+              <Label htmlFor="link" className="sr-only">
+                Link
+              </Label>
+            </div>
+          </div>
+        </DialogContent>
+      </Dialog>
     </div>
   );
 }
