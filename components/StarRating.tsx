@@ -78,13 +78,6 @@ function StarRating() {
               <p>Elle a été transmise et sera prise compte</p>
             </DialogDescription>
           </DialogHeader>
-          <div className="flex items-center space-x-2">
-            <div className="grid flex-1 gap-2">
-              <Label htmlFor="link" className="sr-only">
-                Link
-              </Label>
-            </div>
-          </div>
         </DialogContent>
       </Dialog>
     </div>
