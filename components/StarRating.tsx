@@ -2,6 +2,7 @@
 import React from "react";
 import { useState } from "react";
 import { FaStar } from "react-icons/fa";
+import { Button } from "@/components/ui/button";
 
 const colors = {
   orange: "#FFBA5A",
@@ -54,9 +55,8 @@ function StarRating() {
           );
         })}
       </div>
-      <textarea placeholder="Décrivez votre expérience" />
-
-      <button className="">Envoyer</button>
+      <textarea className="mt-2" placeholder="Décrivez votre expérience" />
+      <Button className="mt-2">Envoyer</Button>
     </div>
   );
 }
