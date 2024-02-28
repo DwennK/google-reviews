@@ -1,7 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import ReactStars from "react-stars";
-import { render } from "react-dom";
 import StarRating from "@/components/StarRating";
 
 export default function Home() {

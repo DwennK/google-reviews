@@ -29,8 +29,7 @@ function StarRating() {
   const handleClick = (value: number) => {
     setCurrentValue(value);
     if (value === 5) {
-      window.location.href =
-        "https://www.google.com/maps/place/Microwest+-+R%C3%A9paration+et+vente+de+Smartphones/@46.9916092,6.9287078,17z/data=!4m8!3m7!1s0x478e0a232716a8e1:0x56a99df72b5c57df!8m2!3d46.9916092!4d6.9287078!9m1!1b1!16s%2Fg%2F11c0pjzwlv?entry=ttu";
+      window.location.href = "https://g.page/r/Cd9XXCv3nalWEB0/review";
     }
   };
 
