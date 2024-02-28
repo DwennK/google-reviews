@@ -83,7 +83,7 @@ function StarRating() {
             <DialogTitle>Evaluation envoyée</DialogTitle>
             <DialogDescription>
               <p>Merci pour votre évaluation !</p>
-              <p>Elle a été transmise et sera prise compte</p>
+              <p>Elle a été transmise et sera prise en compte.</p>
             </DialogDescription>
           </DialogHeader>
         </DialogContent>
