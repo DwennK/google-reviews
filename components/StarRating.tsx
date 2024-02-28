@@ -66,7 +66,14 @@ function StarRating() {
           );
         })}
       </div>
-      <Textarea placeholder="Décrivez votre expérience" className="mt-2" />
+      <Label htmlFor="message" className="mt-2">
+        Envie de laisser un commentaire ?
+      </Label>
+      <Textarea
+        placeholder="Décrivez votre expérience"
+        className="mt-2"
+        id="message"
+      />
       <Dialog>
         <DialogTrigger asChild>
           <Button className="mt-2">Envoyer</Button>

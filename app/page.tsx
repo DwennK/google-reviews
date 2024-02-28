@@ -11,9 +11,6 @@ export default function Home() {
         Donnez nous une évaluation
       </h1>
       <div>
-        <p className="leading-7 [&:not(:first-child)]:mt-6">
-          Envie de laisser un commentaire ?
-        </p>
         <StarRating />
       </div>
     </main>
