@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/dialog";
 
 import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
 
 const colors = {
   orange: "#FFBA5A",
@@ -65,7 +66,7 @@ function StarRating() {
           );
         })}
       </div>
-      <textarea className="mt-2" placeholder="Décrivez votre expérience" />
+      <Textarea placeholder="Décrivez votre expérience" className="mt-2" />
       <Dialog>
         <DialogTrigger asChild>
           <Button className="mt-2">Envoyer</Button>
