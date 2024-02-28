@@ -82,8 +82,14 @@ function StarRating() {
           <DialogHeader>
             <DialogTitle>Evaluation envoyée</DialogTitle>
             <DialogDescription>
-              <p>Merci pour votre évaluation !</p>
-              <p>Elle a été transmise et sera prise en compte.</p>
+              <p>
+                Nous avons bien reçu votre avis, il sera attentivement pris en
+                considération.{" "}
+              </p>
+              <p>
+                Votre retour est essentiel pour nous aider à améliorer
+                constamment nos services.
+              </p>
             </DialogDescription>
           </DialogHeader>
         </DialogContent>
