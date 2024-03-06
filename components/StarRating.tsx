@@ -26,7 +26,9 @@ function StarRating() {
 
   const handleClick = (value: number) => {
     setCurrentValue(value);
-    // Gestion spécifique pour une note de 5 retirée pour focaliser sur l'envoi des données
+    if (value === 5) {
+      window.location.href = "https://g.page/r/Cd9XXCv3nalWEB0/review";
+    }
   };
 
   const handleMouseOver = (newHoverValue: number) => {
@@ -98,8 +100,8 @@ function StarRating() {
             Envoyer
           </Button>
         </DialogTrigger>
-        <DialogContent className="sm:max-w-md">
-          <DialogHeader>
+        <DialogContent className="">
+          <DialogHeader className="">
             <DialogTitle>Evaluation envoyée</DialogTitle>
             <DialogDescription>
               <p>
